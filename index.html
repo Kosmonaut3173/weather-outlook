@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="title">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="sideBar">
+        <div class="search">
+            <h2>Search for City:</h2>
+            <input type="text" class="inputValue" placeholder="New York">
+            <input type="submit" value="Submit">
+        </div>
+
+        <!-- create a div for search history, create a button in js for every city that is searched -->
+        <div class="history">
+            <button class=""></button>
+        </div>
+    </div>
+
+    <div class="display"> 
+        <!-- today and forcast will be aligned vertically, about the same hight -->
+        <div class="today">
+            <h2 class="name date"></h2>
+            <div class="icon"></div>
+            <p class="temp"></p>
+            <p class="humidity"></p>
+            <p class="windSpeed"></p>
+            <p class="uv gyr"></p>
+                <!-- gyr will be the block of color depending on the severity of the uv measurments -->
+        </div>
+
+        <div class="forcast">
+            <h3>5-Day Forcast</h3>
+            <!-- days are to be arranged horizontally in equaly sized rectangles -->
+            <div class="day 1"></div>
+            <div class="day 2"></div>
+            <div class="day 3"></div>
+            <div class="day 4"></div>
+            <div class="day 5"></div>
+        </div>
+    </div>
+
+</body>
+</html>
