@@ -1,0 +1,25 @@
+* {
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+}
+
+.day,
+.today,
+.sideBar {
+    background-color: rgb(246, 239, 239);
+}
+
+.display {
+    background-color: pink;
+}
+
