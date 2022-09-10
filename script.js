@@ -1,0 +1,15 @@
+var button = document.querySelector('.button')
+var inputValue = document.querySelector('.inputValue')
+var name = document.querySelector('.name')
+var icon = document.querySelector('.icon')
+var date = document.querySelector('.date')
+var temp = document.querySelector('.temp')
+var humidity = document.querySelector('.humidity')
+var uv = document.querySelector('.uv')
+
+button.addEventListener('click',function() {
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=8f666f021b1d04b08dedbff32497671c')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => alert("Location Not Found"))
+})
