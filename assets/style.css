@@ -17,23 +17,21 @@ body {
 
 .header {
     background: rgba(24,24,27, 0.6);
-    margin: -10px;
+    margin: 0;
     padding: 10px
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 500;
     color: #eee;
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
-button {
-	width: 300px;
-}
+
 
 li {
 	border: 1px solid #eee;
@@ -51,18 +49,6 @@ li:hover {
 img {
 	width: 100px;
 	height: 100px;
-}
-
-a {
-	font-size: 20px;
-	font-weight: 600;
-	color: #1b2838;
-}
-
-a:hover {
-	color: #1b2838;
-	text-decoration: underline;
-	text-decoration-color: #1b2838;
 }
 
 /* Class selectors */
@@ -83,6 +69,15 @@ a:hover {
 	color: black;
 	float: left;
 	margin: 10px;
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+}
+
+
+.fiveDayOne.card-text,
+.fiveDayOne.card-body {
+	display: flex;
 }
 
 /* Id selectors  */
@@ -92,4 +87,10 @@ a:hover {
 
 #button-addon2:hover {
 	color: white;
+}
+
+@media only screen and (max-width:768px) {
+	.fiveDayCard {
+		display: flex;	
+	}
 }

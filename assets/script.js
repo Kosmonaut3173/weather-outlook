@@ -36,8 +36,6 @@ searchButton.click(function () {
 				method: "GET"
 		}).then(function (response) {
 
-				// list-group append
-				// console.log(response.name);
 				var cityName = $(".list-group").addClass("list-group-item");
 				cityName.append("<li>" + response.name + "</li>");
 
