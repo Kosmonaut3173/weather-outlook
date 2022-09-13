@@ -1,0 +1,95 @@
+/* Universal selector */
+* {
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border-radius: 10px;
+    margin: 0;
+}
+
+/* Element selectors */
+body {
+	font-family: 'El Messiri', sans-serif;
+    background: url('./fallBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header {
+    background: rgba(24,24,27, 0.6);
+    margin: -10px;
+    padding: 10px
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 500;
+    color: #eee;
+}
+
+main {
+    margin-top: 50px;
+}
+
+button {
+	width: 300px;
+}
+
+li {
+	border: 1px solid #eee;
+	text-align: left;
+	margin: 2px;
+	padding-left: 10px;
+	font-size: 20px
+}
+
+li:hover {
+	color: white;
+	background-color:#1b2838; 
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+a {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1b2838;
+}
+
+a:hover {
+	color: #1b2838;
+	text-decoration: underline;
+	text-decoration-color: #1b2838;
+}
+
+/* Class selectors */
+.card-title {
+  font-size: 25px;
+	font-weight: 500;
+}
+
+.fiveDayCard {
+    background: rgba(24,24,27, 0.6);
+    color: #eee;
+    text-align: center;
+}
+
+.fiveDayColor {
+	padding: 20px;
+	background-color: #f7de50;
+	color: black;
+	float: left;
+	margin: 10px;
+}
+
+/* Id selectors  */
+#button-addon2 {
+	color: white;
+}
+
+#button-addon2:hover {
+	color: white;
+}
